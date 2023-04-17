@@ -1,0 +1,12 @@
+/* BREAKPOINT => PONRTOS ONDE O COISAS QUEBRAM
+BREAKPOINT 1 = (widht = 624) */
+@media (max-width:624){
+    .cabecalho nav{
+    width: 30%;
+    flex-wrap: no wrap;
+    }
+
+    .cabecalho a{
+        font-size: 2em;
+    }
+}
