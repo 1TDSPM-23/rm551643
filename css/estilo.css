@@ -1,5 +1,7 @@
-@import url(./cabecalho.css);
-@import url(./conteudo.css);
+@import url("./cabecalho.css");
+@import url("./conteudo.css");
+@import url("./estilo-627x.css");
+@import url("./rodape.css   ");
 
 * {
     box-sizing: border-box;
@@ -15,4 +17,5 @@ html{
     text-align: center;
     font-size: 3em; /*em é uma unidade medida no css do elemento pai, nessa caso o elemento pai é body*/
 }
+
 
