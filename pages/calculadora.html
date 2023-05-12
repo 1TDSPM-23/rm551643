@@ -16,9 +16,9 @@
                 <input type="text" name="visor" id="idVisor" placeholder="0">
             </div>
             <div class="btn-calc">
-                <button value="1" id="btn-1">1</button>
-                <button value="2" id="btn-2">2</button>
-                <button value="3" id="btn-3">3</button>
+                <button value="1" id="btn-1" onclick=NumeroNoVisor(this,idVisor)>1</button>
+                <button value="2" id="btn-2" onclick=NumeroNoVisor(this,idVisor)>2</button>
+                <button value="3" id="btn-3" onclick=NumeroNoVisor(this,idVisor)>3</button>
                 <!-- 
                 <button value="4" id="btn-4">1</button>
                 <button value="5" id="btn-5">1</button>
@@ -28,11 +28,11 @@
                 <button value="9" id="btn-9">1</button>
                 -->
             </div>
-            <div class="oper-clac">
-                <button value="+" id="btnSoma">+</button>
+            <div class="oper-calc">
+                <button value="+" id="btnSoma" onclick=NumeroNoVisor(this,idVisor)>+</button>
             </div>
-            <div class="result-clac">
-                <button value="=" id="btnResultado">=</button>
+            <div class="result-calc">
+                <button value="=" id="btnResultado" onclick=resultadoDasOperaçoes(idVisor)>=</button>
             </div>
         </form>
     </div>
