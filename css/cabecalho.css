@@ -1,21 +1,21 @@
 .cabecalho {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
     background-color: #29292b;
+    width: 100%;
 }
 
 .cabecalho img {
-    width: 30%;
-    max-width: 30%;
+    width: 20%;
+    max-width: 20%;
     display: block;
 }
 
 .cabecalho nav {
     display: flex;
-    justify-content: space-around;
-    width: 60%;
+    width: 10%;
     height: 100%;
     flex-wrap: wrap;
 }
@@ -33,4 +33,8 @@
 .cabecalho a:hover {
     background-color: #fff;
     color: #000000;
+}
+
+.cabecalho button:active{
+    background-color: #000000;
 }

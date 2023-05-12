@@ -20,11 +20,30 @@ GROW/BASIS/SHRINK */
     flex: 1 1 300px;
 }
 
-.sconteudo table{
+table{
     border-collapse: collapse;
+    margin: 5% auto;
 
 }
-.sconteudo table th,td{
-    border: 2px solid #000000;
-    
+th,td{
+    border: 2px solid rgb(155, 155, 155);
+    padding: 8px;   
+}
+
+
+
+tr:nth-child(even){
+    background-color:rgb(253, 255, 130);
+}
+
+tr:nth-child(odd){
+    background-color:rgb(255, 127, 127);
+}
+
+tr:nth-child(1){
+    background-color:rgb(255, 255, 255);
+}
+
+tr:hover{
+    background-color: rgba(250, 235, 215, 0);
 }

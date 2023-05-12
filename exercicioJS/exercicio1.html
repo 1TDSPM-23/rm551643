@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estiloex.css">
+    <script src="./exercicio.js"> </script>
+    <title>Exercicio</title>
+</head>
+<body>
+    <h1>botoes magicos</h1>
+    <button id="vermelho" onclick="trocarcor(id)">Vermelho</button>
+    <button id="branco" onclick="trocarcor(id)">Branco</button>
+
+    <h1>Formulário de Entrada de Texto</h1>
+    <form>
+      <label for="input-text">Digite um item:</label>
+      <input type="text" id="input-text" name="input-text">
+      <button type="button" onclick="addItem()">Enviar</button>
+    </form>
+    <h2>Lista de Itens:</h2>
+    <ul id="item-list"></ul>
+
+    <h1>Muda imagem</h1>
+    <br>
+    <button onclick="trocarImagem()">Ainda é arte?</button>
+    <img src="./imgs/monalisa.jpg" id="imagem" alt="monalisa">
+
+    <h1>Mensagem</h1>
+
+    <h1>Botão que Exibe Mensagem</h1>
+	<button onclick="exibirElemento()">Botão</button>
+    <h1>Botão que Oculta Elemento HTML</h1>
+	<button onclick="ocultarElemento()">Ocultar Elemento</button>
+	<br><br>
+    <p id="elemento"> Oiii</p>
+</body>
+</html>
