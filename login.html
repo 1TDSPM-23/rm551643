@@ -1,41 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Entrar</title>
-    <script src="./js/script.js" deafer></script>
+
+    <script src="./js/login.js" defer></script>
+
+    <title>ENTRAR</title>
 </head>
 <body>
-    <h1>Formulario de Acesso</h1>
-
+    
+    <h1>FORMULÁRIO DE ACESSO</h1>
     <div>
-        <form action="index.html" method="get">
-            <fieldset>
+        <form  action="index.html" name="frm01" method="get" onsubmit="validaFormularioCompleto(idNm, idPass,idCusto)">
+          <fieldset>
+                <input type="hidden" name="txtOculto" value="ValorOculto">
                 <legend>ENTRAR</legend>
                 <div>
-                    <label for="idNm">Usuario</label>
-                    <input type="text" name="txtNm" id="idNm" placeholder="Usuario">
+                    <label for="idNm">Usuário</label>
+                    <input type="text" name="txtNm" id="idNm" placeholder="Usuário">
                 </div>
                 <div>
                     <label for="idPass">Senha</label>
                     <input type="password" name="txtPass" id="idPass" placeholder="Senha">
                 </div>
                 <div>
-                    <label for-="id-c-custo">Centro de Custo</label>
-                    <select name="c=custo" id="id-c-custo">
+                    <label for="idCusto">Centro de Custo</label>
+                    <select name="c-custo" id="idCusto">
                         <option value="0">Selecione uma opção</option>
                         <option value="sp">São Paulo</option>
                         <option value="rj">Rio de Janeiro</option>
-                        <option value="mg">Minas Gerais</option>
-                        <option value="sc">Santa Catarina</option>
+                        <option value="sc">Sta Catarina</option>
                     </select>
                 </div>
-                <button type="submit">Entrar</button>
-                <button type="reset">Limpar</button>
+                <div>
+                    <button type="submit" id="btnSubmit">Entrar</button>
+                    <button type="reset" id="btnLimpar">Limpar</button>
+                </div>
             </fieldset>
         </form>
     </div>
+    
 </body>
 </html>
